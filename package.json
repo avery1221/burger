@@ -1,11 +1,10 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "i put the basic description for how i made this application in the commits but pretty much i started by adding doing all of my npm installs and the making any pages that would be needed to make it so this application could be seen in my localhost so that i know i have established a proper connection then i went on to make the routes and orm pages that go along with connection and server pages that allow to to view this online. after that i tested all of my functions and made sure they worked and then went on to make my handlebards pages and then format the application to a design that i liked.",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,6 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
-    "mysql": "^2.18.1",
-    "orm": "^5.0.5"
+    "mysql": "^2.18.1"
   }
 }
